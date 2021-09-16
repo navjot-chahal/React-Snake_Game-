@@ -1,15 +1,16 @@
 import React from "react"
 
+// Funciton to render grid on every snake movement
 export const Grid = (arr) => {
 
     return(
         <>
-            {arr.map((row) => {
+            {arr.map((row, rowId) => {
                 return(
-                    <div>
-                        {row.map((node) => {
+                    <div key={rowId}>
+                        {row.map((node, nodeId) => {
                             return(
-                                <div>
+                                <div key={nodeId}>
                                     {node}
                                 </div>
                             )

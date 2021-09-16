@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Snake-Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Accessing Application
 
-## Available Scripts
+The app is embedded as a React Component on my website and can be accessed by visiting: [navjotchahal.com/#/projects](https://navjotchahal.com/#/projects)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+Snake game is a React-based app that is similar to the world-famous Snake game present in old Nokia phones.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The app used a javascript array instead of a simple CSS grid and hence has greater control over each block rendering and thus, is highly customizable.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Motivation
 
-### `npm test`
+For my decision to learn JavaSript I wanted to take a project which went very deep into the language's core concepts and could accelerate my learning of new syntax. I also wanted it to be loaded as a component in my main website built with react so I made this app in react framework.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Key Challenges and Learnings:
+I encountered and overcame the following key challenges when developing this application.
+1. Coming from a compiler-based C++ background it was difficult to adapt to JavaScript syntax for 2D array manipulation but I was able to adapt very efficiently.
+2. I wanted to make the App fully modular and did not hard code any key components so that anyone can modify the app, later on, to add more functionality without changing everything.
+3. The main object of getting used to JavaScript syntax was achieved as I had to refer to the JavaScript manual a lot and thus, I learned the latest ES6+ syntax practically.
+4. Many small concepts like keyboard event handling, lifecycle functions, State hooks, and intervals were used as well.
+5. I wanted to save the high score in the backend database, so learned to implement Firebase's Firestore to store high score.
 
-### `npm run build`
+## Future Contributions
+This project was developed as a learning project but still will receive future updates to add user-selectable game modes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+GPL-3.0 License © [Navjot_Chahal]()
